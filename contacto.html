@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="nav-container">
+            <div class="logo">AccidentesLab</div>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="entidades.html">Entidades</a></li>
+                    <li><a href="accidentes.html">Accidentes</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="form" class="py-5" style="background: #f3f3f3;">
+    <div class="container">
+
+        <h2 class="text-center mb-5 fw-bold" 
+            style="color:#222; letter-spacing:1px; text-transform:uppercase;">
+            Contáctenos
+        </h2>
+
+        <div class="row g-4 align-items-stretch">
+
+            <!-- FORM -->
+            <div class="col-md-6">
+                <div class="p-4 bg-white shadow-lg rounded-3" style="border-left:5px solid #000;">
+                    <!-- NO CAMBIÉ NADA INTERNO DEL FORM -->
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nombre:</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo Electrónico:</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Mensaje:</label>
+                            <textarea id="message" name="message" class="form-control" rows="4" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-dark w-100 py-2">Enviar</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- MAPA -->
+            <div class="col-md-6">
+                <div class="shadow-lg rounded-3 overflow-hidden" style="height: 100%;">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.5848372399637!2d-74.79366012512695!3d10.994676489167656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d79e57e00e7%3A0x3b195f6bb10f7ede!2sCUL%20CORPORACION%20UNIVERSITARIA%20LATINOAMERICANA!5e0!3m2!1ses-419!2sco!4v1763783123092!5m2!1ses-419!2sco"
+                        width="100%" height="100%" style="border:0; min-height:400px;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+    <footer>
+        <p>&copy; 2025 - Sistema de Información de Accidentes Laborales</p>
+    </footer>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>

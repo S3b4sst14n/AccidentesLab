@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accidentes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <header>
+        <div class="nav-container">
+            <div class="logo">Sistema de Accidentes</div>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="entidades.html">Entidades</a></li>
+                    <li><a href="accidentes.html">Accidentes</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" style="padding: 70px 20px; border-radius: 0;">
+        <h1>Listado de Accidentes Laborales</h1>
+        <p>Aquí podrás visualizar la información recolectada sobre los accidentes reportados y su relación con las entidades del sistema.</p>
+    </section>
+
+    <!-- CONTENIDO -->
+    <div class="cards" style="max-width: 1200px; margin: auto; padding: 40px 20px;">
+
+        <!-- TARJETA CON TABLA -->
+        <div class="card" style="width: 100%;">
+            <h3>Accidentes Registrados</h3>
+
+            <table id="tablaAccidentes">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Usuario</th>
+                        <th>Lugar</th>
+                        <th>Fecha</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+
+        </div>
+    </div>
+
+    <footer>
+        © 2025 Sistema de Información de Accidentes Laborales
+    </footer>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "id_usuario": 1,
+    "lugar_accidente": "Planta de ensamblaje",
+    "fecha_accidente": "2025-05-20",
+    "descripcion": "Corte en la mano por máquina"
+  },
+  {
+    "id": 2,
+    "id_usuario": 2,
+    "lugar_accidente": "Bodega de almacenamiento",
+    "fecha_accidente": "2025-03-11",
+    "descripcion": "Caída desde escalera mientras organizaba estantería"
+  },
+  {
+    "id": 3,
+    "id_usuario": 3,
+    "lugar_accidente": "Zona de cargue",
+    "fecha_accidente": "2025-04-02",
+    "descripcion": "Golpe en la cabeza por caja mal asegurada"
+  },
+  {
+    "id": 4,
+    "id_usuario": 4,
+    "lugar_accidente": "Área administrativa",
+    "fecha_accidente": "2025-02-18",
+    "descripcion": "Resbalón por piso mojado"
+  },
+  {
+    "id": 5,
+    "id_usuario": 1,
+    "lugar_accidente": "Taller de mantenimiento",
+    "fecha_accidente": "2025-01-29",
+    "descripcion": "Quemadura leve por contacto con tubo caliente"
+  },
+  {
+    "id": 6,
+    "id_usuario": 5,
+    "lugar_accidente": "Zona de carga pesada",
+    "fecha_accidente": "2025-03-22",
+    "descripcion": "Torcedura de tobillo moviendo pallet"
+  },
+  {
+    "id": 7,
+    "id_usuario": 2,
+    "lugar_accidente": "Parqueadero interno",
+    "fecha_accidente": "2025-05-09",
+    "descripcion": "Choque con máquina eléctrica estacionaria"
+  },
+  {
+    "id": 8,
+    "id_usuario": 3,
+    "lugar_accidente": "Laboratorio de productos",
+    "fecha_accidente": "2025-03-17",
+    "descripcion": "Inhalación accidental de vapor químico"
+  },
+  {
+    "id": 9,
+    "id_usuario": 6,
+    "lugar_accidente": "Zona de producción",
+    "fecha_accidente": "2025-04-27",
+    "descripcion": "Atrapamiento leve de dedo en banda transportadora"
+  },
+  {
+    "id": 10,
+    "id_usuario": 7,
+    "lugar_accidente": "Edificio de oficinas",
+    "fecha_accidente": "2025-02-06",
+    "descripcion": "Golpe en rodilla contra escritorio"
+  },
+  {
+    "id": 11,
+    "id_usuario": 4,
+    "lugar_accidente": "Área de restaurante",
+    "fecha_accidente": "2025-05-15",
+    "descripcion": "Corte con cuchillo mientras servía alimentos"
+  },
+  {
+    "id": 12,
+    "id_usuario": 8,
+    "lugar_accidente": "Zona externa",
+    "fecha_accidente": "2025-03-30",
+    "descripcion": "Mordedura de insecto durante inspección"
+  },
+  {
+    "id": 13,
+    "id_usuario": 9,
+    "lugar_accidente": "Planta de refrigeración",
+    "fecha_accidente": "2025-04-11",
+    "descripcion": "Hipotermia leve por falla en equipo de protección"
+  },
+  {
+    "id": 14,
+    "id_usuario": 6,
+    "lugar_accidente": "Depósito de químicos",
+    "fecha_accidente": "2025-01-13",
+    "descripcion": "Salpicadura de sustancia irritante en brazo"
+  },
+  {
+    "id": 15,
+    "id_usuario": 10,
+    "lugar_accidente": "Zona de reciclaje",
+    "fecha_accidente": "2025-02-25",
+    "descripcion": "Corte con vidrio mal clasificado"
+  },
+  {
+    "id": 16,
+    "id_usuario": 7,
+    "lugar_accidente": "Pasillo principal",
+    "fecha_accidente": "2025-05-05",
+    "descripcion": "Tropezón con cable suelto"
+  }
+]

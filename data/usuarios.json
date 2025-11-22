@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "nombre": "Carlos",
+    "apellido": "Pérez",
+    "N_documento": "123456",
+    "id_rol": 1
+  },
+  {
+    "id": 2,
+    "nombre": "Ana",
+    "apellido": "Jiménez",
+    "N_documento": "654321",
+    "id_rol": 2
+  }
+]
