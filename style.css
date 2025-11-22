@@ -11,7 +11,7 @@ body {
   color: #1a1a1a;
 }
 
-/* ===== NAVBAR ===== */
+/* ====== NAVBAR CORPORATIVO ====== */
 header {
   background: #0e1e2f;
   padding: 18px 0;
@@ -28,9 +28,10 @@ header {
 }
 
 .logo {
-  color: #fff;
+  color: #ffffff;
   font-size: 26px;
   font-weight: 700;
+  letter-spacing: 1px;
 }
 
 .navbar ul {
@@ -51,7 +52,7 @@ header {
   color: #3a7bd5;
 }
 
-/* ===== HERO ===== */
+/* ===== HERO ====== */
 .hero {
   width: 100%;
   padding: 110px 20px;
@@ -75,12 +76,11 @@ header {
   opacity: 0.9;
 }
 
-/* HERO BTN */
 .hero-btn {
   display: inline-block;
   margin-top: 25px;
   padding: 12px 30px;
-  background: #fff;
+  background: #ffffff;
   color: #1b4f91;
   font-size: 17px;
   font-weight: 600;
@@ -130,7 +130,8 @@ header {
   color: #444;
 }
 
-/* ===== TABLAS ===== */
+/* ===== TABLAS CORPORATIVAS ===== */
+/* TABLAS */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -158,6 +159,7 @@ table tbody td {
   padding: 10px 12px;
 }
 
+/* Hover */
 table tbody tr:hover {
   background: #dce6f5;
 }
@@ -171,64 +173,18 @@ footer {
   margin-top: 50px;
 }
 
-/* =========================================
-        🔥 RESPONSIVE MEJORADO 🔥
-   ========================================= */
-
-/* Tablet */
+/* ===== RESPONSIVE ===== */
 @media (max-width: 850px) {
   .navbar ul {
     gap: 15px;
   }
 
   .hero h1 {
-    font-size: 32px;
-  }
-
-  .hero p {
-    font-size: 16px;
-  }
-}
-
-/* Celular grande */
-@media (max-width: 600px) {
-  .nav-container {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .navbar ul {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 12px;
-  }
-
-  .hero {
-    padding: 80px 20px;
-  }
-
-  .hero h1 {
-    font-size: 26px;
+    font-size: 30px;
   }
 
   .cards {
-    padding: 30px 10px;
-    gap: 15px;
-  }
-
-  .card {
-    width: 90%;
-  }
-
-  table thead {
-    font-size: 14px;
+    flex-direction: column;
+    align-items: center;
   }
 }
-
-/* Celular pequeño */
-@media (max-width: 420px) {
-  .logo {
-    font-size: 22px;
-  }
-
-  .
