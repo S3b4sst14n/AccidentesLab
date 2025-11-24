@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "cantidad_de_dinero": 25000000,
+    "fuente_financiamiento": "Gobierno Nacional",
+    "finalidad_dinero": "Prevención de riesgos",
+    "costo_accidente": 3500000
+  },
+  {
+    "id": 2,
+    "cantidad_de_dinero": 10000000,
+    "fuente_financiamiento": "ARL Sura",
+    "finalidad_dinero": "Cubrir incapacidades",
+    "costo_accidente": 1200000
+  },
+  {
+    "id": 3,
+    "cantidad_de_dinero": 15000000,
+    "fuente_financiamiento": "Colmena Seguros",
+    "finalidad_dinero": "Capacitación de empleados",
+    "costo_accidente": 2000000
+  }
+]

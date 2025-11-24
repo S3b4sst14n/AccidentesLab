@@ -1,30 +1,112 @@
-// Cargar tabla Accidentes
+document.addEventListener("DOMContentLoaded", () => {
+    cargarArl();
+    cargarMinisterios();
+    cargarRecursos();
+    cargarPresupuestos();
+    cargarAccidentes(); // solo se ejecutará en la página que tenga esa tabla
+});
+
+/* ARL */
+async function cargarArl() {
+    const tabla = document.querySelector("#tablaArl tbody");
+    if (!tabla) return; // si la tabla no existe, no hace nada
+
+    const res = await fetch("./data/arls.json");
+    const arls = await res.json();
+
+    arls.forEach(a => {
+        tabla.innerHTML += `
+        <tr>
+            <td>${a.id}</td>
+            <td>${a.nombre_arl}</td>
+            <td>${a.nombre_caso}</td>
+        </tr>`;
+    });
+}
+
+/* MINISTERIOS */
+async function cargarMinisterios() {
+    const tabla = document.querySelector("#tablaMinisterios tbody");
+    if (!tabla) return;
+
+    const res = await fetch("./data/ministerios.json");
+    const ministerios = await res.json();
+
+    ministerios.forEach(m => {
+        tabla.innerHTML += `
+        <tr>
+            <td>${m.id}</td>
+            <td>${m.nombre_ministerio}</td>
+            <td>${m.reporte_ministerio}</td>
+        </tr>`;
+    });
+}
+
+/* RECURSOS */
+async function cargarRecursos() {
+    const tabla = document.querySelector("#tablaRecursos tbody");
+    if (!tabla) return;
+
+    const res = await fetch("./data/recursos.json");
+    const recursos = await res.json();
+
+    recursos.forEach(r => {
+        tabla.innerHTML += `
+        <tr>
+            <td>${r.id}</td>
+            <td>${r.tipo_recurso}</td>
+            <td>${r.estado_recurso}</td>
+            <td>${r.mantenimiento_recurso}</td>
+        </tr>`;
+    });
+}
+
+/* PRESUPUESTOS */
+async function cargarPresupuestos() {
+    const tabla = document.querySelector("#tablaPresupuestos tbody");
+    if (!tabla) return;
+
+    const res = await fetch("./data/presupuestos.json");
+    const presupuestos = await res.json();
+
+    presupuestos.forEach(p => {
+        tabla.innerHTML += `
+        <tr>
+            <td>${p.id}</td>
+            <td>$${p.cantidad_de_dinero.toLocaleString()}</td>
+            <td>${p.fuente_financiamiento}</td>
+            <td>${p.finalidad_dinero}</td>
+            <td>$${p.costo_accidente.toLocaleString()}</td>
+        </tr>`;
+    });
+}
+
+/* ACCIDENTES */
 async function cargarAccidentes() {
+    const tabla = document.querySelector("#tablaAccidentes tbody");
+    if (!tabla) return;
+
     const resAcc = await fetch("./data/accidentes.json");
     const accidentes = await resAcc.json();
 
     const resUsers = await fetch("./data/usuarios.json");
     const usuarios = await resUsers.json();
 
-    const tbody = document.querySelector("#tablaAccidentes tbody");
-
     accidentes.forEach(acc => {
-
         const user = usuarios.find(u => u.id === acc.id_usuario) 
                      || { nombre: "Usuario", apellido: "No registrado" };
 
-        tbody.innerHTML += `
+        tabla.innerHTML += `
         <tr>
             <td>${acc.id}</td>
             <td>${user.nombre} ${user.apellido}</td>
             <td>${acc.lugar_accidente}</td>
             <td>${acc.fecha_accidente}</td>
             <td>${acc.descripcion}</td>
-        </tr>
-        `;
+        </tr>`;
     });
 }
-cargarAccidentes();
+
 
 document.addEventListener("DOMContentLoaded", () => {
     const form = document.getElementById('contactForm');

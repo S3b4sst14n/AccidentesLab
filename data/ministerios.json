@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "nombre_ministerio": "Ministerio de Trabajo",
+    "reporte_ministerio": "Análisis anual de riesgos laborales"
+  },
+  {
+    "id": 2,
+    "nombre_ministerio": "Ministerio de Salud",
+    "reporte_ministerio": "Casos atendidos relacionados con traumas"
+  },
+  {
+    "id": 3,
+    "nombre_ministerio": "Ministerio de Industria",
+    "reporte_ministerio": "Accidentes reportados en el sector manufacturero"
+  }
+]

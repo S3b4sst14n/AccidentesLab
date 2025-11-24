@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "tipo_recurso": "Máquina industrial",
+    "estado_recurso": "Operativa",
+    "mantenimiento_recurso": "Al día"
+  },
+  {
+    "id": 2,
+    "tipo_recurso": "Cinta transportadora",
+    "estado_recurso": "En mantenimiento",
+    "mantenimiento_recurso": "Programado"
+  },
+  {
+    "id": 3,
+    "tipo_recurso": "Herramienta manual",
+    "estado_recurso": "Dañada",
+    "mantenimiento_recurso": "Pendiente"
+  },
+  {
+    "id": 4,
+    "tipo_recurso": "Montacargas",
+    "estado_recurso": "Operativa",
+    "mantenimiento_recurso": "Al día"
+  }
+]
